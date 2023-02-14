@@ -9,10 +9,20 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css"
     />
-    <script type="text/javascript" src="https://unpkg.com/mediainfo.js/dist/mediainfo.js"></script>
-   <title>demo</title>
+    <script type="text/javascript" src="./mediainfo.js"></script>
+    <title>demo</title>
   </head>
   <body>
+    <video controls>Your browser does not support the video tag.</video>
+
+    <div class="controls">
+      <input type="button"  class="btn" value="backword" onclick="moveBackword()" id="backword"></input>
+      <input  type="button" class="btn" value="forward" onclick="moveFarward()"  id="forward"></input>
+    </div>
+    <div class="controls">
+      <p id="framecount">Number of frames : 0</p>
+      <p id="curframe">Current Frame Number : 0</p>
+    </div>
     <script src="./app.js"></script>
   </body>
 </html>
