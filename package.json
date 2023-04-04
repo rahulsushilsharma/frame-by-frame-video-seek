@@ -1,0 +1,27 @@
+{
+  "name": "frame-by-frame-video-seek",
+  "version": "1.0.0",
+  "description": "library for seeking video frame by frame in native html5 video player",
+  "main": "./src/video_seek.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulsushilsharma/frame-by-frame-video-seek.git"
+  },
+  "keywords": [
+    "video-seek",
+    "frame-by-frame",
+    "video"
+  ],
+  "author": "srahul0_0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulsushilsharma/frame-by-frame-video-seek/issues"
+  },
+  "homepage": "https://github.com/rahulsushilsharma/frame-by-frame-video-seek#readme"
+}
