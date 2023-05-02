@@ -21,7 +21,8 @@ function MediaInfoPromise(file) {
     });
   });   
 }
-
+ // some changes
+ 
 function moveFarward() {
   if (curframe <= frameCount) {
     video_element.currentTime += 1 / frameRate;
