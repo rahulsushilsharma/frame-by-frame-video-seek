@@ -19,7 +19,7 @@ function MediaInfoPromise(file) {
         .then((result) => resolve(result))
         .catch((error) => reject(error));
     });
-  });
+  });   
 }
 
 function moveFarward() {
