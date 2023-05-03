@@ -19,9 +19,10 @@ function MediaInfoPromise(file) {
         .then((result) => resolve(result))
         .catch((error) => reject(error));
     });
-  });
+  });   
 }
-
+ // some changes
+ 
 function moveFarward() {
   if (curframe <= frameCount) {
     video_element.currentTime += 1 / frameRate;
